@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>55-Minute Timer</title>
+</head>
+<body>
+    <h1>55-Minute Countdown Timer</h1>
+    <div id="timer">55:00</div>
+    <button onclick="startTimer()">Start 55-Minute Timer</button>
+
+    <script>
+        function startTimer() {
+            const display = document.getElementById('timer');
+            let time = 55 * 60; // 55 minutes in seconds
+
+            const interval = setInterval(() => {
+                const minutes = Math.floor(time / 60);
+                const seconds = time % 60;
+
+                display.textContent = `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+
+                if (time <= 0) {
+                    clearInterval(interval);
+                    alert('Time is up!');
+                }
+
+                time--;
+            }, 1000);
+        }
+    </script>
+</body>
+</html>
