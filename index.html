@@ -4,15 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles/styles.css">
-    <title>Document</title>
+    <title>Home</title>
 </head>
 <body>
-    <h1>Dorms</h1>
-    <div id="dormLinks">
-        <a href="GleasonHall.html">Gleason Hall</a>
-        <a href="ColbyHall.html">Colby Hall</a>
-        <a href="ResidenceHallA.html">Residence Hall A</a>
-    </div>
+    <section id="login" class="visable"> 
+        <h1>Login</h1>
+        <div id="user-input">
+            <h2>Email:</h2>
+            <input type="email" id="email">
+            <h2>Password:</h2>
+            <input type="password" id="password">
+            <br><br>    
+            <button class="submit-login" >Login</button>
+        </div>   
+    </section>
+    <section id="main" class="hidden">
+        <h1>Dorms</h1>
+        <div id="dorm-links">
+            <a href="GleasonHall.html">Gleason Hall</a>
+            <a href="ColbyHall.html">Colby Hall</a>
+            <a href="ResidenceHallA.html">Residence Hall A</a>
+        </div>
+    </section>
     
+    <script>
+        let login_button = document.querySelector('button.submit-login');
+        let login_section = document.getElementById('login');
+        let main = document.getElementById("main");
+
+        function login() {
+            login_section.style.visibility = "hidden";
+
+            main.style.visibility = "visible";
+
+            console.log("Hello World");
+
+
+        }
+
+        login_button.addEventListener("click", login);
+
+    </script>
+
 </body>
 </html>
