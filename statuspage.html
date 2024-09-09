@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Copperplate', 'Copperplate Gothic Light', sans-serif;
+            font-size: 30px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>status</h1>
+    <h2>Washer</h2>
+    <h3 id="timer">55:00</h3> <!-- Corrected the id attribute placement -->
+
+    <button onclick="startTimer()">Start 55-Minute Timer</button> <!-- Button to start the timer -->
+
+    <script>
+        function startTimer() {
+            const display = document.getElementById('timer');
+            let time = 55 * 60; // 55 minutes in seconds
+
+            const interval = setInterval(() => {
+                const minutes = Math.floor(time / 60);
+                const seconds = time % 60;
+
+                display.textContent = `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+
+                if (time <= 0) {
+                    clearInterval(interval);
+                    alert('Time is up!');
+                }
+
+                time--;
+            }, 1000);
+        }
+    </script>
+</body>
+</html>
