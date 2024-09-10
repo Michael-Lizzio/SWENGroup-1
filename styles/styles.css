@@ -15,14 +15,21 @@ h2 {
 
 #main {
     visibility: hidden;
-}
-
-#dorm-links {
-    width: 40%;
-    margin: auto;
     border-style: solid;
     border-width: medium;
     border-radius: 5px;
+    margin: auto;
+    width: 45%;
+    padding: 20px;
+    background-color: rgba(255, 114, 0, 0.85);
+    
+
+}
+
+#dorm-links {
+    width: 85%;
+    border-width: medium;
+    margin: auto;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -52,5 +59,12 @@ h2 {
     text-decoration: none;
     padding: 10px 25px;
     margin-bottom: 5px;
+    border-style: solid;
+    border-width: medium;
+    border-radius: 5px;
+    margin: auto;
+    width: 20%;
+    padding: 20px;
+    background-color: rgba(255, 114, 0, 0.85);
 
 }
