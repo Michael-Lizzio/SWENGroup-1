@@ -1,0 +1,548 @@
+{
+    "Carlton Gibson Hall": {
+        "machine_1": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_2": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_3": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_4": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_5": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_6": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_7": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_8": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        }
+    },
+    "Colby Hall": {
+        "machine_1": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_2": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_3": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_4": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_5": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_6": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_7": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_8": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        }
+    },
+    "Frances Baker Hall": {
+        "machine_1": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_2": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_3": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_4": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_5": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_6": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_7": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_8": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        }
+    },
+    "Fredericka Douglass Sprague Perry Hall": {
+        "machine_1": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_2": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_3": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_4": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_5": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_6": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_7": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_8": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        }
+    },
+    "Helen Fish Hall": {
+        "machine_1": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_2": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_3": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_4": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_5": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_6": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_7": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_8": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        }
+    },
+    "Kate Gleason Hall": {
+        "machine_1": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_2": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_3": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_4": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_5": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_6": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_7": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_8": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        }
+    },
+    "Mark Ellingson Hall": {
+        "machine_1": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_2": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_3": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_4": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_5": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_6": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_7": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_8": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        }
+    },
+    "Peter Peterson Hall": {
+        "machine_1": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_2": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_3": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_4": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_5": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_6": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_7": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_8": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        }
+    },
+    "Residence Hall A": {
+        "machine_1": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_2": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_3": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_4": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_5": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_6": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_7": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_8": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        }
+    },
+    "Residence Hall B": {
+        "machine_1": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_2": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_3": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_4": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_5": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_6": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_7": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_8": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        }
+    },
+    "Residence Hall C": {
+        "machine_1": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_2": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_3": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_4": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_5": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_6": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_7": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_8": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        }
+    },
+    "Residence Hall D": {
+        "machine_1": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_2": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_3": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_4": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_5": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_6": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_7": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_8": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        }
+    },
+    "Sol Heumann Hall": {
+        "machine_1": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_2": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_3": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_4": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_5": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_6": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_7": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        },
+        "machine_8": {
+            "status": "open",
+            "time_started": null,
+            "duration": null
+        }
+    }
+}

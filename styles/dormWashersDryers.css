@@ -1,3 +1,10 @@
+:root {
+  --boarder-width: 7px;
+  --boarder-width-neg: -7px;
+  --available-green: #4bd162;
+  --in-use-red: #d14641;
+}
+
 body {
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
@@ -12,7 +19,7 @@ h2 {
   font-size: 20px;
 }
 
-.mechines {
+.machine {
   border-style: solid;
   border-width: medium;
   border-radius: 5px;
@@ -20,12 +27,44 @@ h2 {
   width: 80%;
   padding: 20px;
   background-color: rgba(255, 114, 0, 0.85);
+  margin-bottom: 10px;
+  justify-content: space-around; /* Space items evenly */
 }
 
-.mechines img {
+.machine img {
   width: auto;
-  height: 350px; /* Maintain aspect ratio */
+  height: 250px;
   padding: 25px;
+}
+
+.machine a img[status="open"] {
+  -webkit-filter: drop-shadow(
+      var(--boarder-width) var(--boarder-width) 0 var(--available-green)
+    )
+    drop-shadow(
+      var(--boarder-width-neg) var(--boarder-width-neg) 0 var(--available-green)
+    );
+  filter: drop-shadow(
+      var(--boarder-width) var(--boarder-width) 0 var(--available-green)
+    )
+    drop-shadow(
+      var(--boarder-width-neg) var(--boarder-width-neg) 0 var(--available-green)
+    );
+}
+
+.machine a img[status="closed"] {
+  -webkit-filter: drop-shadow(
+      var(--boarder-width) var(--boarder-width) 0 var(--in-use-red)
+    )
+    drop-shadow(
+      var(--boarder-width-neg) var(--boarder-width-neg) 0 var(--in-use-red)
+    );
+  filter: drop-shadow(
+      var(--boarder-width) var(--boarder-width) 0 var(--in-use-red)
+    )
+    drop-shadow(
+      var(--boarder-width-neg) var(--boarder-width-neg) 0 var(--in-use-red)
+    );
 }
 
 /* Style for the washer buttons */
