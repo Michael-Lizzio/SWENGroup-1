@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="stylesheet" href="/styles/homepage.css">
     <title>Home</title>
     <style>
         body {
@@ -28,22 +28,21 @@
     <section id="main" class="hidden">
     <h1>Dorms</h1>
         <div id="dorm-links">
-            <a href ="GibsonHall.html">Carlton Gibson Hall</a>
-            <a href="ColbyHall.html">Colby Hall</a>
-            <a href ="BakerHall.html">Frances Baker Hall</a>
-            <a href ="DSPHall.html">Fredericka Douglass Spraque Perry Hall</a>
-            <a href ="FishHall.html">Helen Fish Hall</a>
-            <a href="GleasonHall.html">Kate Gleason Hall</a>
-            <a href="EllingsonHall.html">Mark Ellingson Hall</a>
-            <a href="Peterson.html">Peter Peterson Hall</a>
-            <a href="ResidenceHallA.html">Residence Hall A</a>
-            <a href="ResdienceHallB.html">Residence Hall B</a>
-            <a href="ResidenceHallC.html">Residence Hall C</a>
-            <a href="ResidenceHallD.html">Residence Hall D</a>
-            <a href="SolHeumannHall.html">Sol Heumann Hall</a>
-    </div>
+            <button class="dorm-name">Carlton Gibson Hall</button>
+            <button class="dorm-name">Colby Hall</button>
+            <button class="dorm-name">Frances Baker Hall</button>
+            <button class="dorm-name">Fredericka Douglass Spraque Perry Hall</button>
+            <button class="dorm-name">Helen Fish Hall</button>
+            <button class="dorm-name">Kate Gleason Hall</button>
+            <button class="dorm-name">Mark Ellingson Hall</button>
+            <button class="dorm-name">Peter Peterson Hall</button>
+            <button class="dorm-name">Residence Hall A</button>
+            <button class="dorm-name">Residence Hall B</button>
+            <button class="dorm-name">Residence Hall C</button>
+            <button class="dorm-name">Residence Hall D</button>
+            <button class="dorm-name">Sol Heumann Hall</button>
+        </div>
     </section>
-    
     <script>
         let login_button = document.querySelector('button.submit-login');
         let login_section = document.getElementById('login');
@@ -56,7 +55,17 @@
 
         login_button.addEventListener("click", login);
 
+        const dorm_buttons = document.getElementsByClassName('dorm-name');
+
+        Array.from(dorm_buttons).forEach(button => {
+            button.addEventListener('click', function(e) {
+                e.preventDefault();
+                const dormNameValue = e.target.textContent;
+                localStorage.setItem('dorm-name', dormNameValue);
+                window.location.href = "dormWashersDryers.html";
+            });
+        });
+
     </script>
-    
 </body>
 </html>

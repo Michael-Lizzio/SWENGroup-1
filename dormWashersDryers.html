@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title class="dorm-name">Place Holder</title>
+    <link rel="stylesheet" href="/styles/dormWashersDryers.css">
+</head>
+<body>
+    <h1 class="dorm-name">Place Holder</h1>
+    <div id="washers">
+        <h2>Washers</h2>
+
+        <button class="washer-button"></button>
+        <a href="statuspage.html">
+            <img src="photos/clipart-dryer-4-removebg-preview.jpg" alt="Washer Image" style="width:200px; height:300px;">
+        </a>
+
+        <button class="washer-button"></button>
+        <a href="statuspage.html">
+            <img src="photos/clipart-dryer-4-removebg-preview.jpg" alt="Washer Image" style="width:200px; height:300px;">
+        </a>
+    </div>
+
+    <div id="dryers">
+        <h2>Dryers</h2>
+
+        <button class="dryer-button"></button>
+        <a href="statuspage.html">
+            <img src="photos/dryer_image.jpg" alt="Dryer Image" style="width:200px; height:300px;">
+        </a>
+
+        <button class="dryer-button"></button>
+        <a href="statuspage.html">
+            <img src="photos/dryer_image.jpg" alt="Dryer Image" style="width:200px; height:300px;">
+        </a>
+    </div>
+    <script>
+        const dormName = localStorage.getItem('dorm-name');
+
+        if (dormName) {
+            // Select all elements with the class 'dorm-name' and update their text content
+            const dormNameElements = document.getElementsByClassName('dorm-name');
+            Array.from(dormNameElements).forEach(element => {
+                element.textContent = dormName;
+            });
+        }
+    </script>
+</body>
+</html>
