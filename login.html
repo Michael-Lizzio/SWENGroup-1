@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/login.css">
+    <title>Home</title>
+    <style>
+        body {
+          background-image: url("photos/Residence_Hall_Image.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        </style>
+</head>
+<body>
+    <section id="login" class="visable"> 
+        <h1>Login</h1>
+        <div id="user-input">
+            <h2>Email:</h2>
+            <input type="email" id="email">
+            <h2>Password:</h2>
+            <input type="password" id="password">
+            <br><br>    
+            <button class="submit-login" >Login</button>
+        </div>   
+    </section>
+    <script>
+        let login_button = document.querySelector('button.submit-login');
+        let login_section = document.getElementById('login');
+        let email_section = document.getElementById('email');
+        let password_section = document.getElementById('password');
+        let main = document.getElementById("main");
+
+        let password = password_section.value;
+
+        // Debugging statements
+        console.log("Email:", email);
+        console.log("Password length:", password.length);
+
+        function login() {
+            if (email_section.value.includes("@rit.edu") && password_section.value.length > 4){
+                window.location.href = "DormSelection.html";
+            }
+            else {
+                ;// Show An error
+            }
+        }
+
+        login_button.addEventListener("click", login);
+    </script>
+</body>
+</html>

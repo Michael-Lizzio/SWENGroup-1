@@ -13,7 +13,7 @@ h2 {
 }
 
 #main {
-  visibility: hidden;
+  //visibility: hidden;
   border-style: solid;
   border-width: medium;
   border-radius: 5px;
@@ -49,18 +49,4 @@ h2 {
 
 #dorm-links .dorm-name:hover {
   background-color: #597f8e;
-}
-
-#login {
-  display: block;
-  text-decoration: none;
-  padding: 10px 25px;
-  margin-bottom: 5px;
-  border-style: solid;
-  border-width: medium;
-  border-radius: 5px;
-  margin: auto;
-  width: 20%;
-  padding: 20px;
-  background-color: rgba(255, 114, 0, 0.85);
 }

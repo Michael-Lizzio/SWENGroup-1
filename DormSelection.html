@@ -14,17 +14,6 @@
         </style>
 </head>
 <body>
-    <section id="login" class="visable"> 
-        <h1>Login</h1>
-        <div id="user-input">
-            <h2>Email:</h2>
-            <input type="email" id="email">
-            <h2>Password:</h2>
-            <input type="password" id="password">
-            <br><br>    
-            <button class="submit-login" >Login</button>
-        </div>   
-    </section>
     <section id="main" class="hidden">
     <h1>Dorms</h1>
         <div id="dorm-links">
@@ -44,17 +33,6 @@
         </div>
     </section>
     <script>
-        let login_button = document.querySelector('button.submit-login');
-        let login_section = document.getElementById('login');
-        let main = document.getElementById("main");
-
-        function login() {
-            login_section.style.visibility = "hidden";
-            main.style.visibility = "visible";
-        }
-
-        login_button.addEventListener("click", login);
-
         const dorm_buttons = document.getElementsByClassName('dorm-name');
 
         Array.from(dorm_buttons).forEach(button => {
@@ -62,7 +40,7 @@
                 e.preventDefault();
                 const dormNameValue = e.target.textContent;
                 localStorage.setItem('dorm-name', dormNameValue);
-                window.location.href = "dormWashersDryers.html";
+                window.location.href = "WashersDryers.html";
             });
         });
 
