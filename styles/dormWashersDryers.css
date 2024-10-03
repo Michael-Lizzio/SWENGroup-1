@@ -9,5 +9,31 @@ h1 {
 }
 
 h2 {
-  font-size: small;
+  font-size: 20px;
+}
+
+.mechines {
+  border-style: solid;
+  border-width: medium;
+  border-radius: 5px;
+  margin: auto;
+  width: 80%;
+  padding: 20px;
+  background-color: rgba(255, 114, 0, 0.85);
+}
+
+.mechines img {
+  width: auto;
+  height: 350px; /* Maintain aspect ratio */
+  padding: 25px;
+}
+
+/* Style for the washer buttons */
+.washer-button {
+  display: none;
+}
+
+/* Style for the washer buttons */
+.dryer-button {
+  display: none;
 }
