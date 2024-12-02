@@ -16,22 +16,22 @@
         <h2>Washers</h2>
 
         <button class="washer-button"></button>
-        <a href="statuspage.html">
+        <a href="statuspage_washer.html">
             <img status="closed" src="photos/washer_closed.png" alt="Washer Image">
         </a>
 
         <button class="washer-button"></button>
-        <a href="statuspage.html">
+        <a href="statuspage_washer.html">
             <img status="open" src="photos/washer_open.png" alt="Washer Image">
         </a>
 
         <button class="washer-button"></button>
-        <a href="statuspage.html">
+        <a href="statuspage_washer.html">
             <img status="closed" src="photos/washer_closed.png" alt="Washer Image">
         </a>
 
         <button class="washer-button"></button>
-        <a href="statuspage.html">
+        <a href="statuspage_washer.html">
             <img status="closed" src="photos/washer_closed.png" alt="Washer Image">
         </a>
     </div>
@@ -40,22 +40,22 @@
         <h2>Dryers</h2>
 
         <button class="dryer-button"></button>
-        <a href="statuspage.html">
+        <a href="statuspage_dryer.html">
             <img status="open" src="photos/dryer_open.png" alt="Dryer Image">
         </a>
 
         <button class="dryer-button"></button>
-        <a href="statuspage.html">
+        <a href="statuspage_dryer.html">
             <img status="closed" src="photos/dryer_closed.png" alt="Dryer Image">
         </a>
 
         <button class="dryer-button"></button>
-        <a href="statuspage.html">
+        <a href="statuspage_dryer.html">
             <img status="closed" src="photos/dryer_closed.png" alt="Dryer Image">
         </a>
 
         <button class="dryer-button"></button>
-        <a href="statuspage.html">
+        <a href="statuspage_dryer.html">
             <img status="closed" src="photos/dryer_closed.png" alt="Dryer Image">
         </a>
     </div>
@@ -69,6 +69,15 @@
                 element.textContent = dormName;
             });
         }
+        // if user tries to hit unavailable washer or dryer show popup
+        document.querySelectorAll('.button').forEach(button => {
+            button.addEventListener('click', (event) => {
+                const status = event.target.getAttribute('status'); // Get the status attribute
+                if (status === 'closed') {
+                    alert('Unavailable'); // Show popup
+                }
+            });
+        });
     </script>
 </body>
 </html>

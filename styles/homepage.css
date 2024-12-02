@@ -49,3 +49,18 @@ h2 {
 #dorm-links .dorm-name:hover {
   background-color: #597f8e;
 }
+
+#logout {
+  background-color: red;
+  color: rgb(255, 255, 255);
+  padding: 10px 25px;
+
+  border-radius: 10px;
+  margin: 5px 0;
+  border: none;
+  cursor: pointer;
+}
+
+#logout:hover {
+  background-color: #597f8e;
+}

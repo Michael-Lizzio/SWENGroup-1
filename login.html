@@ -39,8 +39,11 @@
         console.log("Password length:", password.length);
 
         function login() {
-            if (email_section.value.includes("@rit.edu") && password_section.value.length > 4){
+            if (email_section.value.includes("rit.edu") && password_section.value.length > 4){
                 window.location.href = "DormSelection.html";
+                localStorage.setItem('username', email_section.value.split("@")[0]);
+                localStorage.setItem('email', email_section.value);
+                localStorage.setItem('notAPassword', password_section.value);// ;)
             }
             else {
                 ;// Show An error
