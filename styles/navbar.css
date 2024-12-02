@@ -1,17 +1,21 @@
 body {
   margin: 0;
+  font-family: Arial, sans-serif;
 }
 
 ul.nav {
   list-style-type: none;
-  margin-top: 5 px;
+  margin: 0;
   padding: 0;
-  overflow: hidden;
   background-color: #333;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 ul.nav li {
-  float: left;
+  float: 1;
 }
 
 ul.nav li a {
@@ -31,19 +35,25 @@ ul.nav li a.active {
 }
 
 ul.nav li.right {
-  float: right;
+  margin-left: auto;
 }
 
 ul.nav li img {
-  width: 32%;
-  height: auto;
-  float: left;
+  height: 50px;
+  width: auto;
+
+  // float: left;
   padding: 10px;
 }
 
 @media screen and (max-width: 600px) {
-  ul.nav li.right,
+  ul.nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
   ul.nav li {
-    float: none;
+    flex: none;
+    text-align: left;
   }
 }
