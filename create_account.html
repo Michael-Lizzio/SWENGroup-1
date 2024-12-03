@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles/login.css">
-    <title>Login</title>
+    <title>Create Account</title>
     <style>
         body {
           background-image: url("photos/Residence_Hall_Image.jpg");
           background-repeat: no-repeat;
           background-size: cover;
         }
-        #create-account{
+        #login_button{
             text-decoration: none;
-            color: rgb(0, 149, 149);
+            color: rgb(0, 177, 30);
             border: black;
             background-color: black;
             padding: 5px;
@@ -24,21 +24,23 @@
 </head>
 <body>
     <section id="login" class="visable"> 
-        <h1>Login</h1>
+        <h1>Create Account</h1>
         <div id="user-input">
+            <h2>Username:</h2>
+            <input type="username" id="username">
             <h2>Email: *(rit.edu)</h2>
             <input type="email" id="email">
             <h2>Password: *(length > 5)</h2>
             <input type="password" id="password">
             <br><br>    
-            <button class="submit-login" >Login</button>
-            <a id="create-account" href="create_account.html">Create Account</a>
-
+            <button class="submit-login" >Create</button>
+            <a id="login_button" href="login.html">Login</a>
         </div>   
     </section>
     <script>
         let login_button = document.querySelector('button.submit-login');
         let login_section = document.getElementById('login');
+        let username_section = document.getElementById('username');
         let email_section = document.getElementById('email');
         let password_section = document.getElementById('password');
         let main = document.getElementById("main");
@@ -46,13 +48,14 @@
         let password = password_section.value;
 
         // Debugging statements
+        console.log("Username:", username.value);
         console.log("Email:", email.value);
         console.log("Password length:", password.length);
 
         function login() {
             if (email_section.value.includes("rit.edu") && password_section.value.length > 4){
                 window.location.href = "DormSelection.html";
-                localStorage.setItem('username', email_section.value.split("@")[0]);
+                localStorage.setItem('username', username_section.value);
                 localStorage.setItem('email', email_section.value);
                 localStorage.setItem('notAPassword', password_section.value);// ;)
             }
